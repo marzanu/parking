@@ -20,5 +20,9 @@ basic.forever(function () {
     }
 })
 basic.forever(function () {
-	
+    if (plaçes_lliures == 0) {
+        basic.showString("PLE")
+    } else if (plaçes_lliures == 5) {
+        basic.showString("BUIT")
+    }
 })
